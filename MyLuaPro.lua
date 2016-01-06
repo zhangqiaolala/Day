@@ -1,4 +1,13 @@
-
+--[[
+print(b)
+b=10
+print(b)
+b=nil
+print(b)
+--]]
+--单行注释
+--[[多行注释
+--]]
 b="string"
 print(type("Hello World"))
 --C中的int float double在Lua中都是number类型
